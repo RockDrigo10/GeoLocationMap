@@ -15,31 +15,35 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Type: " />
+            android:text="Type: "/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onNormalMap"
-            android:text="Normal" />
+            android:onClick="getMapType"
+            android:text="Normal"
+            android:id="@+id/btnNormal"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onSatelliteMap"
-            android:text="Satellite" />
+            android:onClick="getMapType"
+            android:text="Satellite"
+            android:id="@+id/btnSatellite"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onTerrainMap"
-            android:text="Terrain" />
+            android:onClick="getMapType"
+            android:text="Terrain"
+            android:id="@+id/btnTerrain"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onHybridMap"
-            android:text="Hybrid" />
+            android:onClick="getMapType"
+            android:text="Hybrid"
+            android:id="@+id/btnHybrid"/>
 
     </LinearLayout>
 </fragment>
